@@ -9,4 +9,9 @@ public class HelloWorldTest {
         helloWorld.setMessage("test");
         assertEquals("test", helloWorld.getMessage());
     }
+    
+    @Test
+    public void testHelloWorldFail() {
+    	fail("Failed test");
+    }
 }
